@@ -5,13 +5,52 @@
       <title>Contactenos</title>
     </head>
     <body>
-      <p>Dejenos sus datos y le contactaremos</p>
+      <h1>Quieres un sitio así? Contáctame</h1>
+      <p><a href="about.html">Acerca de nosotros</a></p>
+      <p><a href="index.html">Inicio</a></p>
+      <h2>Datos de contacto</h2>
+      <p>
+        Nombre: Mateo Osorio Narváez <br />
+        Celular: 3016052690 <br />
+        Email: mosorion@eafit.edu.co <br />
+        Redes: mateosorion
+      </p>
+      <h2>O déjame los tuyos y te contactaré</h2>
+      <h3>Formulario de contacto</h3>
       <form>
-        <legend>Datos de contacto</legend>
-        <label for="tel">Telefono</label>
-        <input id="tel" name="tel" type="tel" /><br />
-        <label for="name">Nombre</label>
-        <input id="name" name="name" type="text" /><br />
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="name">Nombre:</label>
+          <input id="name" name="name" type="tel" />
+          <label for="lname">Apellido:</label>
+          <input id="lname" name="lname" type="text" /><br />
+          <label >Género:</label>
+          <input id="gender" name="f-gender" type="radio" />
+          <label for="gender">Femenino</label>
+          <input id="gender" name="m-gender" type="radio" />
+          <label for="gender">Masculino</label>
+          <input id="gender" name="o-gender" type="radio" />
+          <label for="gender">Otro</label><br></br>
+          
+        </fieldset>
+        <fieldset>
+          <legend>Datos de contacto</legend>
+          <label for="tel">Telefono:</label>
+          <input id="tel" name="name" type="tel" /><br>
+          <label for="mail">Email:</label>
+          <input id="mail" name="mail" type="email" />
+        </fieldset>
+        <fieldset>
+          <legend>¿Qué servicio requieres?</legend>
+          <select id="serv" name="serv">
+            <option value="cotz">Cotizacion</option>
+            <option value="of">Oferta</option>
+          </select><br></br>
+          <label for="date">Cuándo te puedo contactar?</label><br>
+          <input id="date" name="date" type="datetime-local"/><br></br>
+          <label for="obs">Alguna observación?</label><br>
+          <textarea id="obs" name="obs" type="text"></textarea>
+        </fieldset>
         <button type="submit">Enviar</button>
       </form>
     </body>
