@@ -2,7 +2,9 @@
 Descripción: Escribe una función que recorra los números del 1 al 100. Para cada número,
  imprime "Fizz" si es divisible por 3, "Buzz" si es divisible por 5, y "FizzBuzz" si es divisible por ambos.
 
-for(let i=0;i<100;i++){
+
+function FizzBuzz(){
+ for(let i=1;i<100;i++){
     if(i%3==0&&i%5==0){
 console.log(i+"FizzBuzz")
     }
@@ -12,6 +14,7 @@ console.log(i+"FizzBuzz")
     else if (i%5==0){
         console.log(i+"Fizz")
     }
+}
 }*/
 /*
 Ejercicio 5: Palíndromo
@@ -77,3 +80,4 @@ function fibo(numb){
     }
 }
 fibo(35)
+
