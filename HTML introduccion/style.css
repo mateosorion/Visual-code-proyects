@@ -1,0 +1,30 @@
+body {
+    background: #03092b url("img/fondo.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center;
+    width: 1000px;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: #6DB1BF;
+}
+
+h2 {
+    color: #91C4CF;
+}
+
+h3 {
+    color: #ACD2DB;
+}
+
+dd {
+    color: #C7E0E6;
+}
+
+p {
+    font-size: 20px;
+}
